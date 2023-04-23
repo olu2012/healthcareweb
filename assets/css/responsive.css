@@ -1,0 +1,354 @@
+/*******************************************************
+    Template Name    : Healthcare - Doctor & Medical Clinic Landing Page Templates
+    Author           : Cute Themes
+    Version          : 1.0
+    Created          : 2020
+    File Description : Main Reaposive file of the template
+*******************************************************/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+		padding-right: 0;
+	}
+	.home-area .home-content h1 {
+		font-size: 35px;
+		line-height: 1.5;
+	}
+	.home-area .home-content p {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.choose-item-box {
+		margin-bottom: 30px;
+	}
+	.choose-item-box:last-child {
+		margin-bottom: 0px;
+	}
+	
+	/* Start about images style */
+	.about-content h2 {
+		font-size: 30px;
+	}
+	.about-images-border-outside {
+		background: transparent;
+		width: 315px;
+		height: 315px;
+		margin: 0 auto;
+		padding: 15px;
+		border: 1px solid rgb(0 0 0);
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	.about-images-circle-1 {
+		background: #FDCF2F;
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin-top: 65px;
+		border-radius: 50%;
+	}
+	.about-images-circle-2 {
+		background: #E91E63;
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		margin-top: 203px;
+		margin-left: 245px;
+		border-radius: 50%;
+	}
+	.about-images-circle-3 {
+		background: #6f64e7;
+		width: 65px;
+		height: 65px;
+		position: absolute;
+		margin-top: 210px;
+		margin-left: 0;
+		border-radius: 50%;
+	}
+	.about-images-border-radius {
+		background: transparent;
+		width: 100%;
+		height: 100%;
+		padding: 15px;
+		border: 1px solid rgb(255 0 0);
+		border-radius: 50%;
+	}
+	/* End about images style */
+	
+	.education-experience-box {
+		margin-bottom: 30px;
+	}
+	.education-experience-box:last-child {
+		margin-bottom: 0px;
+	}
+	.contact-form-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 40px 40px;
+		margin-bottom: 35px;
+	}
+	.consulting-hour-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 40px 40px;
+	}
+	
+	.blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-item:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	#navbarDefault {
+		width: 100%;
+		height: 250px;
+		overflow-y: scroll;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content h1 {
+		font-size: 33px;
+		line-height: 1.5;
+	}
+	.home-area .home-content p {
+		font-size: 15px;
+		line-height: 1.5;
+	}
+	.choose-item-box {
+		margin-bottom: 30px;
+	}
+	.choose-item-box:last-child {
+		margin-bottom: 0px;
+	}
+	
+	/* Start about images style */
+	.about-content h2 {
+		font-size: 28px;
+	}
+	.about-images-border-outside {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.about-images-circle-1 {
+		margin-top: 85px;
+	}
+	.about-images-circle-2 {
+		display: none;
+	}
+	.about-images-circle-3 {
+		display: none;
+	}
+	/* End about images style */
+	
+	.education-experience-box {
+		margin-bottom: 30px;
+	}
+	.education-experience-box:last-child {
+		margin-bottom: 0px;
+	}
+	
+	.contact-form-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 40px 40px;
+		margin-bottom: 35px;
+	}
+	.consulting-hour-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 40px 40px;
+	}
+	
+	.blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-item:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 479px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	.home-area {
+		background-position: top right;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content h1 {
+		font-size: 28px;
+		line-height: 1.5;
+	}
+	.home-area .home-content p {
+		font-size: 17px;
+		line-height: 1.6;
+	}
+	.choose-item-box {
+		margin-bottom: 30px;
+	}
+	.choose-item-box:last-child {
+		margin-bottom: 0px;
+	}	
+	
+	/* Start about images style */
+	.about-content h2 {
+		font-size: 28px;
+	}
+	.about-images-border-outside {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.about-images-circle-1 {
+		margin-top: 85px;
+	}
+	.about-images-circle-2 {
+		display: none;
+	}
+	.about-images-circle-3 {
+		display: none;
+	}
+	/* End about images style */
+	
+	.single-testimonial {
+		padding: 0px;
+	}
+	.testimonial-area .owl-carousel .owl-nav {
+		display: none;
+	}
+	
+	.education-experience-box {
+		margin-bottom: 30px;
+	}
+	.education-experience-box:last-child {
+		margin-bottom: 0px;
+	}
+	
+	.contact-form-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 30px 15px;
+		margin-bottom: 35px;
+	}
+	.consulting-hour-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 30px 15px;
+	}
+	
+	.blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-item:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+
+@media screen and (max-width: 320px) and (min-width: 0px){
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	#navbarDefault {
+		width: 100%;
+		height: auto;
+		overflow-y: scroll;
+	}
+	.home-area {
+		background-position: top right;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content h1 {
+		font-size: 30px;
+		line-height: 1.5;
+	}
+	.home-area .home-content p {
+		font-size: 17px;
+		line-height: 1.6;
+	}
+	
+	.choose-item-box {
+		margin-bottom: 30px;
+	}
+	.choose-item-box:last-child {
+		margin-bottom: 0px;
+	}
+		
+	/* Start about images style */
+	.about-content h2 {
+		font-size: 25px;
+	}
+	.about-images-border-outside {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.about-images-circle-1 {
+		margin-top: 85px;
+	}
+	.about-images-circle-2 {
+		display: none;
+	}
+	.about-images-circle-3 {
+		display: none;
+	}
+	/* End about images style */
+	
+	.single-testimonial {
+		padding: 0px;
+	}
+	.testimonial-area .owl-carousel .owl-nav {
+		display: none;
+	}
+	
+	.education-experience-box {
+		margin-bottom: 30px;
+	}
+	.education-experience-box:last-child {
+		margin-bottom: 0px;
+	}
+	
+	.contact-form-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 30px 15px;
+		margin-bottom: 35px;
+	}
+	.consulting-hour-box {
+		background: rgb(0 0 0 / 0.3);
+		padding: 30px 15px;
+	}
+	
+	.blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-item:last-child {
+		margin-bottom: 0px;
+	}
+
+}
